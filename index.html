@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Segment Intersection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Line Segment Intersection Checker</h1>
+        <form id="lineForm">
+            <div class="segment">
+                <h2>First Line Segment</h2>
+                <label for="p1x">p1.x:</label>
+                <input type="number" id="p1x" required>
+                <label for="p1y">p1.y:</label>
+                <input type="number" id="p1y" required>
+                <label for="q1x">q1.x:</label>
+                <input type="number" id="q1x" required>
+                <label for="q1y">q1.y:</label>
+                <input type="number" id="q1y" required>
+            </div>
+            <div class="segment">
+                <h2>Second Line Segment</h2>
+                <label for="p2x">p2.x:</label>
+                <input type="number" id="p2x" required>
+                <label for="p2y">p2.y:</label>
+                <input type="number" id="p2y" required>
+                <label for="q2x">q2.x:</label>
+                <input type="number" id="q2x" required>
+                <label for="q2y">q2.y:</label>
+                <input type="number" id="q2y" required>
+            </div>
+            <button type="submit">Check Intersection</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
